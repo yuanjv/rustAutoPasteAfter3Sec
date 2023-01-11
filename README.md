@@ -1,5 +1,10 @@
 # rustAutoPasteAfter3Sec
-#paste this in terminal
+
+
+the rsautogui is not reliable... failed
+
+
+Paste this in terminal
 
 Mac(arm):
 ```
