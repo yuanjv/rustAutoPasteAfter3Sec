@@ -1,4 +1,4 @@
-# rustAutoPasteAfter3SecForArmMac
+# rustAutoPasteAfter3Sec
 #paste this in terminal
 
 Mac(arm):
