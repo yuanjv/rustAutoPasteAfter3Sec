@@ -31,7 +31,7 @@ fn main() {
             //BUG uppercases doesn't work
             //do chars
             let chars: Vec<_> = l.chars().collect();
-            for i in chars{
+            for mut i in chars{
                 let mut notHappened=true;
                 for n in &lowerCases{
                     if i==*n{
@@ -40,6 +40,14 @@ fn main() {
                     }  
                 }
                 if notHappened{
+                    //BUG "{" and "}" doesn't work
+                    //change it to shift + "["/"]"
+                    if i=='{'{
+                        i='[';
+                    }
+                    if i=='}'{
+                        i=']';
+                    }
                     keyboard::key_down(Key::Shift);
                     keyboard::typewrite(&i.to_string());
                     keyboard::key_up(Key::Shift);
