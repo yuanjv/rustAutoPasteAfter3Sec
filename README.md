@@ -1,7 +1,11 @@
 # rustAutoPasteAfter3Sec
 
 
-the rsautogui is not reliable... failed
+the rsautogui is not great
+bugs need to address
+
+"{}" still doesn't work
+
 
 
 Paste this in terminal
