@@ -2,9 +2,7 @@
 
 
 the rsautogui is not great
-bugs need to address
-
-"{}" still doesn't work
+so many bugs
 
 
 
